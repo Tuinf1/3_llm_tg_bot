@@ -1,0 +1,26 @@
+# Python-generated files
+auth_service/.env
+auth_service/.pytest_cache
+auth_service/.venv
+auth_service/1
+auth_service/устновки
+auth_service/auth.db
+2_установка
+bot_service/.env
+bot_service/.pytest_cache
+1
+.python-version
+uv.lock/
+*.vscode/
+*.ruff_cache/
+llm_p/__pycache__/
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+llm_p/.env
+# Virtual environments
+.venv
+.vscode
