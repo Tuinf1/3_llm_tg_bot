@@ -8,6 +8,7 @@ auth_service/auth.db
 2_установка
 bot_service/.env
 bot_service/.pytest_cache
+bot_service/app/__pycache__
 1
 .python-version
 uv.lock/
