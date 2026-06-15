@@ -6,6 +6,7 @@ auth_service/устновки
 auth_service/auth.db
 2_установка
 bot_service/.env
+bot_service/установка
 bot_service/.pytest_cache
 bot_service/app/__pycache__
 bot_service/tests/__pycache__
