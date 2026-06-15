@@ -178,3 +178,13 @@ uv run pytest tests
 
 ```
 ```
+
+регистрация
+
+![alt text](image.png)
+
+
+
+ логин /auth/me
+
+![alt text](image-2.png)
