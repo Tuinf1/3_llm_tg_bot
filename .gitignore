@@ -1,5 +1,4 @@
 # Python-generated files
-auth_service/.env
 auth_service/.pytest_cache
 auth_service/.venv
 auth_service/1
@@ -9,6 +8,7 @@ auth_service/auth.db
 bot_service/.env
 bot_service/.pytest_cache
 bot_service/app/__pycache__
+bot_service/tests/__pycache__
 1
 .python-version
 uv.lock/
