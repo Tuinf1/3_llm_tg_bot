@@ -188,3 +188,49 @@ uv run pytest tests
  логин /auth/me
 
 ![alt text](image-2.png)
+
+Скриншоты работы Telegram-бота
+
+![alt text](image-3.png)
+
+Overview
+
+![alt text](image-4.png)
+
+
+Queues and Streams
+
+![alt text](image-5.png)
+
+
+## Тестирование
+
+Для проверки корректности работы сервисов используются автоматические тесты на `pytest`.
+
+В `bot_service` реализованы тесты:
+
+- `test_handlers.py` — проверяет обработчики Telegram-бота без реального обращения к Telegram API.
+- `test_jwt.py` — проверяет создание и валидацию JWT-токенов.
+- `test_openrouter_client.py` — проверяет клиент OpenRouter через мокирование HTTP-запросов.
+
+Запуск тестов выполняется из директории `bot_service`:
+
+```bash
+uv run pytest -v
+
+![alt text](image.png)
+
+
+### Тестирование Auth Service
+
+Проверяются:
+
+- регистрация пользователя;
+- авторизация пользователя;
+- доступ к защищённым маршрутам;
+- создание JWT-токенов;
+- валидация JWT-токенов;
+- обработка ошибочных сценариев авторизации.
+
+
+![alt text](image-1.png)
