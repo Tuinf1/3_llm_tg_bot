@@ -215,7 +215,7 @@ Queues and Streams
 
 Запуск тестов выполняется из директории `bot_service`:
 
-```bash
+
 uv run pytest -v
 
 ![alt text](image.png)
