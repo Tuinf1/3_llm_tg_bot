@@ -233,4 +233,4 @@ uv run pytest -v
 - обработка ошибочных сценариев авторизации.
 
 
-![alt text](image-1.png)
+![alt text](image-6.png)
